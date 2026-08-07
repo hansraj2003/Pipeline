@@ -1,1 +1,56 @@
+name: data-pipeline
 
+# 18:15 UTC = 23:45 IST, Mon-Fri. SEBI gives AMCs until 23:00 IST to upload NAVs
+# to AMFI, so this runs after the deadline with slack. GitHub cron is
+# best-effort and can be delayed well past the requested minute under load,
+# which is fine — the Apps Script side reads the file the next morning.
+on:
+  schedule:
+    - cron: "15 18 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-pipeline
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # continue-on-error so a failed fetch still commits _status.json. A
+      # broken run that reports nothing is exactly the silent-vs-dead problem
+      # this file exists to avoid.
+      - name: Fetch and parse
+        id: fetch
+        continue-on-error: true
+        run: python pipeline/fetch.py
+
+      - name: Commit
+        run: |
+          git config user.name  "data-pipeline"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "data: $(date -u +'%Y-%m-%dT%H:%MZ')"
+            git push
+          fi
+
+      # _status.json changes on every run, so there is always a commit, so the
+      # 60-day no-commit disable can never fire while this workflow is alive.
+
+      - name: Surface fetch failure
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "fetch.py reported a failure — see data/_status.json for which source"
+          exit 1
