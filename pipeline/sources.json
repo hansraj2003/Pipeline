@@ -1,1 +1,19 @@
-
+{
+  "_comment": [
+    "Adding a source is an entry here plus, only if its shape is new, a parser",
+    "function in fetch.py. Nothing here knows what any row is for.",
+    "",
+    "out: path relative to the repo root. The Apps Script side reads the same",
+    "path from raw.githubusercontent.com, so changing it means changing",
+    "PIPELINE_SOURCES in Mod_Pipeline.gs too."
+  ],
+  "sources": {
+    "amfi_nav": {
+      "label": "AMFI daily NAV",
+      "url": "https://www.amfiindia.com/spages/NAVAll.txt",
+      "parser": "amfi_nav",
+      "out": "data/amfi_nav.csv",
+      "enabled": true
+    }
+  }
+}
