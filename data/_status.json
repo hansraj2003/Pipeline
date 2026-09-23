@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-22T21:21:16Z",
-  "generated_at_ist": "2026-09-23 02:51",
+  "generated_at": "2026-09-23T21:31:23Z",
+  "generated_at_ist": "2026-09-24 03:01",
   "sources": {
     "amfi_nav": {
       "data_date": "",
       "error": null,
-      "fetched_at": "2026-09-22T21:21:16Z",
-      "fetched_at_ist": "2026-09-23 02:51",
+      "fetched_at": "2026-09-23T21:31:23Z",
+      "fetched_at_ist": "2026-09-24 03:01",
       "label": "AMFI daily NAV",
       "ok": true,
       "out": "data/amfi_nav.csv",
-      "row_count": 14393,
+      "row_count": 14394,
       "skipped_rows": 0,
       "url": "https://www.amfiindia.com/spages/NAVAll.txt"
     }
