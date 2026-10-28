@@ -3745,6 +3745,7 @@ scheme_code,isin_growth,isin_reinvest,scheme_name,nav,nav_date,amc,category
 152368,INF789F1AZE6,-,UTI Nifty 5 yr Benchmark G-Sec ETF,Direct Plan,Growth,UTI Mutual Fund,
 152327,INF0R8F01034,-,Zerodha Nifty 1D Rate Liquid ETF,Direct Plan,Growth Option,Zerodha Mutual Fund,
 153811,INF0R8F01133,-,Zerodha Nifty 8-13 Yr G-Sec ETF,Direct Plan,,Zerodha Mutual Fund,
+154366,INF579M01BP5,-,360 ONE MSCI India ETF,Direct Plan,GROWTH Option,360 ONE Mutual Fund,
 139581,INF209KB10E8,-,Aditya Birla Sun Life BSE Sensex ETF,,,Aditya Birla Sun Life Mutual Fund,
 154224,INF209KC1670,-,Aditya Birla Sun Life BSE Top 10 Banks ETF,,,Aditya Birla Sun Life Mutual Fund,
 154774,INF209KC1746,-,Aditya Birla Sun Life BSE Total Market ETF,,,Aditya Birla Sun Life Mutual Fund,
@@ -3815,6 +3816,7 @@ scheme_code,isin_growth,isin_reinvest,scheme_name,nav,nav_date,amc,category
 149169,INF769K01HP3,-,Mirae Asset S&P 500 Top 50 ETF,,,Mirae Asset Mutual Fund,
 154551,INF247L01HG7,-,Motilal Oswal Nifty Metal ETF,,,Motilal Oswal Mutual Fund,
 154552,INF247L01HH5,-,Motilal Oswal Nifty Oil & Gas ETF,,,Motilal Oswal Mutual Fund,
+154826,INF200KB1CJ6,-,SBI BSE India Defence ETF,Regular Plan,Growth,SBI Mutual Fund,
 146388,INF789F1AUU3,-,UTI - BSE Sensex Next 50 Exchange Traded Fund,Direct Plan,Growth,UTI Mutual Fund,
 141665,INF789F1AUW9,-,UTI - Nifty Next 50 Exchange Traded Fund,Direct Plan,Growth,UTI Mutual Fund,
 154698,INF789F1AH42,-,UTI BSE India Sector Leaders Exchange Traded Fund,,Growth,UTI Mutual Fund,
@@ -3842,7 +3844,6 @@ scheme_code,isin_growth,isin_reinvest,scheme_name,nav,nav_date,amc,category
 105463,INF789F1AUX7,-,UTI - Gold Exchange Traded Fund,Direct Plan,Growth,UTI Mutual Fund,
 152476,INF0R8F01042,-,Zerodha Gold ETF,Direct Plan,,Zerodha Mutual Fund,
 154497,INF769K01RJ5,-,Mirae Asset Nifty200 Momentum 30 Plus 8-13 yr G-Sec 50:50 ETF,,,Mirae Asset Mutual Fund,
-154366,INF579M01BP5,-,360 ONE MSCI India ETF,Direct Plan,GROWTH Option,360 ONE Mutual Fund,
 154199,INF666M01OD9,-,Groww BSE Hospitals ETF,,,Groww Mutual Fund,
 153744,INF666M01LM6,-,Groww BSE Power ETF,,,Groww Mutual Fund,
 153329,INF666M01JV1,-,Groww Nifty 200 ETF,,,Groww Mutual Fund,
@@ -14408,8 +14409,12 @@ scheme_code,isin_growth,isin_reinvest,scheme_name,nav,nav_date,amc,category
 151484,INF789F1AXO0,-,UTI Fixed Term Income Fund Series XXXVI - I (1574 Days),Direct Plan,IDCW,UTI Mutual Fund,Close Ended Schemes(Income/Debt Oriented Schemes - Fixed Term Plan)
 151483,INF789F1AXN2,-,UTI Fixed Term Income Fund Series XXXVI - I (1574 Days),Regular Plan,Growth,UTI Mutual Fund,Close Ended Schemes(Income/Debt Oriented Schemes - Fixed Term Plan)
 151486,INF789F1AXM4,-,UTI Fixed Term Income Fund Series XXXVI - I (1574 Days),Regular Plan,IDCW,UTI Mutual Fund,Close Ended Schemes(Income/Debt Oriented Schemes - Fixed Term Plan)
-106185,INF789F01FJ8,-,UTI Annual Interval Fund - I,Regular Plan,Institutional Growth,UTI Mutual Fund,Close Ended Schemes(Income/Debt Oriented Schemes - Other Debt Scheme)
-123663,INF789F01VU2,INF789F01VV0,UTI Annual Interval Fund - I,Direct Plan,IDCW,UTI Mutual Fund,Close Ended Schemes(Income/Debt Oriented Schemes - Other Debt Scheme)
-123646,INF789F01VW8,-,UTI Annual Interval Fund - I,Direct Plan,Growth,UTI Mutual Fund,Close Ended Schemes(Income/Debt Oriented Schemes - Other Debt Scheme)
-106183,INF789F01FG4,-,UTI Annual Interval Fund - I,Regular Plan,Growth,UTI Mutual Fund,Close Ended Schemes(Income/Debt Oriented Schemes - Other Debt Scheme)
-106186,INF789F01FE9,INF789F01FF6,UTI Annual Interval Fund - I,Regular Plan,IDCW,UTI Mutual Fund,Close Ended Schemes(Income/Debt Oriented Schemes - Other Debt Scheme)
+154859,INF209KC1837,-,Aditya Birla Sun Life Fixed Maturity Plan-Series VB (136 Days),Direct Plan,Growth,Aditya Birla Sun Life Mutual Fund,
+154858,INF209KC1852,INF209KC1845,Aditya Birla Sun Life Fixed Maturity Plan-Series VB (136 Days),Direct Plan,IDCW,Aditya Birla Sun Life Mutual Fund,
+154861,INF209KC1886,INF209KC1878,Aditya Birla Sun Life Fixed Maturity Plan-Series VB (136 Days),Regular Plan,IDCW,Aditya Birla Sun Life Mutual Fund,
+154860,INF209KC1860,-,Aditya Birla Sun Life Fixed Maturity Plan-Series VB (136 Days),Regular Plan,Growth,Aditya Birla Sun Life Mutual Fund,
+106185,INF789F01FJ8,-,UTI Annual Interval Fund - I,Regular Plan,Institutional Growth,UTI Mutual Fund,
+123663,INF789F01VU2,INF789F01VV0,UTI Annual Interval Fund - I,Direct Plan,IDCW,UTI Mutual Fund,
+123646,INF789F01VW8,-,UTI Annual Interval Fund - I,Direct Plan,Growth,UTI Mutual Fund,
+106183,INF789F01FG4,-,UTI Annual Interval Fund - I,Regular Plan,Growth,UTI Mutual Fund,
+106186,INF789F01FE9,INF789F01FF6,UTI Annual Interval Fund - I,Regular Plan,IDCW,UTI Mutual Fund,
