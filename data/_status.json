@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10T01:33:53Z",
-  "generated_at_ist": "2026-11-10 07:03",
+  "generated_at": "2026-11-10T23:24:47Z",
+  "generated_at_ist": "2026-11-11 04:54",
   "sources": {
     "amfi_nav": {
       "data_date": "",
       "error": null,
-      "fetched_at": "2026-11-10T01:33:53Z",
-      "fetched_at_ist": "2026-11-10 07:03",
+      "fetched_at": "2026-11-10T23:24:47Z",
+      "fetched_at_ist": "2026-11-11 04:54",
       "label": "AMFI daily NAV",
       "ok": true,
       "out": "data/amfi_nav.csv",
